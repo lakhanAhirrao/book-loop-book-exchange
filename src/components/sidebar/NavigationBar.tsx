@@ -34,6 +34,7 @@ import { getTotalUnreadMessages } from '@/services/ChatService';
 import FavoriteIcon from '@mui/icons-material/Favorite';
 import BookmarkAddedIcon from '@mui/icons-material/BookmarkAdded';
 
+//const { user } = useAuthContext();
 // Toggle open/close state of navigation bar
 function Toggler({
   defaultExpanded = false,
@@ -325,14 +326,16 @@ const NavigationBar: React.FC = () => {
         component={"a"} 
         href={user ? `/user/${user.username}` : '/home'}
       >
-        <Avatar variant="outlined" size="sm" src={user.profile} />
+        <Avatar variant="outlined" size="sm" src={user?.profile || '/default-avatar.png'}/>
         <Box sx={{ minWidth: 0, flex: 1 }}>
-          <Typography level="title-sm">{user.username}</Typography>
-          <Typography level="body-xs">{user.email}</Typography>
+          <Typography level="title-sm">{user?.username || "Guest"} </Typography>
+          <Typography level="body-xs">{user?.email || ""}</Typography>
         </Box>
-        <IconButton size="sm" variant="plain" color="neutral" href="/" onClick={handleLogout}>
-          <LogoutRoundedIcon />
-        </IconButton>
+        {user && (
+          <IconButton size="sm" variant="plain" color="neutral" href="/" onClick={handleLogout}>
+            <LogoutRoundedIcon />
+          </IconButton>
+        )}
       </Box>
     </Sheet>
 

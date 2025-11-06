@@ -11,7 +11,7 @@ const inter = Inter({ subsets: ['latin'] });
 
 // Metadata for the application
 export const metadata = {
-  title: 'Book Loop',
+  title: 'Book Exchange',
   description: 'A book exchange platform for everyone.',
 };
 
