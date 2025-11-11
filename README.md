@@ -1,5 +1,5 @@
 # Table of Contents
-- [What is *Book Loop*?](#what-is-book-loop)
+- [What is *Book Exchange*?](#what-is-book-exchange)
 - [Origin](#origin)
 - [Features](#features)
   - [User Profiles](#user-profiles)
@@ -16,14 +16,14 @@
 
 ---
 
-# Book Loop
+# Book Exchange
 <img src="public/logo.svg" alt="Logo" width="170" height="100" />
 
-## What is ***Book Loop***?
+## What is ***Book Exchange***?
 
-***Book Loop*** is a Peer-to-Peer (P2P) Book Exchange Platform. It is designed to create a seamless and community-driven solution for book enthusiasts to share and exchange physical books.
+***Book Exchange*** is a Peer-to-Peer (P2P) Book Exchange Platform. It is designed to create a seamless and community-driven solution for book enthusiasts to share and exchange physical books.
 
-> The name ***Book Loop*** reflects the idea of circulating books among readers, emphasizing the sharing and community aspects of the platform.
+> The name ***Book Exchange*** reflects the idea of circulating books among readers, emphasizing the sharing and community aspects of the platform.
 
 
 ### Origin
@@ -34,7 +34,7 @@ The idea stems from the realization that many books are often left unread on she
 ## Features
 ### User Profiles
 - [X] You can create your personal account, with information such as your favourite genres and what kinds of books you are looking out for.
-    <img width="1451" alt="Screenshot 2024-09-29 at 03 29 05" src="https://github.com/user-attachments/assets/2f6f4554-99ad-4ed2-9671-13bed877efd1">
+  <img width="1451" alt="Screenshot 2024-09-29 at 03 29 05" src="https://github.com/user-attachments/assets/2f6f4554-99ad-4ed2-9671-13bed877efd1"> >
 
 ### Book Listings & Search
 - [X] You can list books which you are willing to exchange. You can include details such as the title, author, genre, exchange method, and image.
