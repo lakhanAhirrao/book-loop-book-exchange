@@ -34,7 +34,7 @@ The idea stems from the realization that many books are often left unread on she
 ## Features
 ### User Profiles
 - [X] You can create your personal account, with information such as your favourite genres and what kinds of books you are looking out for.
-  <img width="1451" alt="Screenshot 2024-09-29 at 03 29 05" src="file:///C:/Users/Lakha/Downloads/Screenshot_Image_rlclj8rlclj8rlcl.png"> >
+  <img width="1451" alt="Screenshot 2025-11-11" src="file:///C:/Users/Lakha/Downloads/Screenshot_Image_rlclj8rlclj8rlcl.png"> >
 
 ### Book Listings & Search
 - [X] You can list books which you are willing to exchange. You can include details such as the title, author, genre, exchange method, and image.
